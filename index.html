@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>vvsu-web-site</title>
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <div class="header-line">
-            <div class="logo">
-                <img src="vvsu-logo.png" alt="" />
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burgermenu</title>
+    <link rel="stylesheet" href="style.css">
 
-            <div class="nav">
-                <a href="!">Создать заявку</a>
-                <a href="!">Войти</a>        
-            </div>
-                <h1>f2f2</h1>
-            </div>
-
-          
-            
+</head>
+<body>
+    <div id="navigation">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
         </div>
-      </div>
     </div>
-  </body>
+    <ul class="nav" id="nav">
+        <li><a href="#">Свернуть</a></li>
+        <li><img src="img/Project.png" class="imgfile"></img><a href="#">Проекты</a></li>
+        <li><img src="img/Acselirat.png" class="imgfile"><a href="#">Акселераторы</a></li>
+        <li><img src="img/Chempion.png" class="imgfile"><a href="#">Чемпионаты</li>
+        <li><a href="#">Завершенные треки</li>
+        <li><img src="img/Techpod.png" class="imgfile"><a href="#">Техподдержка</li>
+        <li><img src="img/Exit.png" class="imgfile"><a href="#">Выход из аккаунта</li>
+    </ul>
+
+    <script src="script.js"></script>
+    
+</body>
 </html>
