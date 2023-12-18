@@ -1,0 +1,10 @@
+.nav {
+    width: 1920px;
+    height: 55px;
+    background: var(--, #0F6295);
+}
+.logo {
+    width: 97px;
+    height: 40px;
+    flex-shrink: 0;
+}
