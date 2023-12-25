@@ -37,8 +37,27 @@
     color: #f0f0f0;
     margin-right: 11px;
 }
-.nav-link-bold{
+.line{
+    width: 1px;
+    height: 16px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.nav-link-bold a{
+    color:#FFF;
+    text-decoration: none;
     font-weight: 700;
+}
+.nav-link-bold a:hover{
+    color:#9FC0D5;
+}
+.username a{
+    color: #FFF;
+    text-decoration: none;
+}
+.username a:hover{
+    color:#9FC0D5;
 }
 .navbar-background{
     height: 55px;
@@ -67,6 +86,9 @@
     font-weight: 500;
     text-decoration: none;
     color: #0F0F14;
+}
+.breadcrumbs-text:hover{
+    color:#0F6295;
 }
 
 .main-content-background{
@@ -176,11 +198,18 @@
     color: #FFFFFF;
     margin-right: 244px;
 }
+.vvsu-link:hover{
+    color: #9FC0D5;
+    text-decoration: none;
+}
 .footer-links a{
     padding-bottom: 0;
     margin-right: 24px;
     text-decoration: none;
     color: #9FC0D5;
+}
+.footer-links a:hover{
+    color:#fff
 }
 .social-networks{
     margin-left: auto;
