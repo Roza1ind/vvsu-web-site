@@ -1,79 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="contacts.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@700;800&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Контакты</title>
-  </head>
-  <body>
-  <div class="header">
-    <div class="headerline">
-      <div class="containerlogo">
-        <div class="header-logo">
-          <img src="static/logo/burger.svg" alt="">
-          <img src="static/logo/vvsu_logo_white.svg" alt="">
+</head>
+<body>
+    <div class="page">
+        <div class="navbar-background">
+            <header class="header navbar-container">
+                <div class="header-logo">
+                    <a href="">
+                        <img src="/static/logo/burger.svg" alt="burger">
+                    </a>
+                    <a href="#">
+                        <img src="/static/logo/vvsu_logo_white.svg" alt="vvsu">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><img src="/static/logo/request.svg" alt="request-logo"></li>
+                        <li class="nav-link-bold">Создать заявку</li>
+                        <li><img src="/static/logo/notification.svg" alt="notification-logo"></li>
+                        <li>Гмарь Дмитрий Викторович</li>
+                        <li><img src="/static/logo/profile.png" alt="profile-img"></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-      </div>
-      <div class="nav">
-        <div class="request">
-          <a href=""><img src="request.png" alt=""></a>
-          <a class="request-text" href="#">Создать заявку</a>
+
+        <div class="breadcrumbs-background">
+            <div class="main-container">
+                <div class="breadcrumbs">
+                    <a href="#">
+                        <img src="static/logo/back.svg" alt="back">
+                    </a>
+                    <a class="breadcrumbs-text" href="#">
+                        Адреса и контакты
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="notifications">
-          <img src="static/logo/Line.svg" alt="">
-          <a href=""><img src="enter.png" alt=""></a>
-          <img src="static/logo/Line.svg" alt="">
+
+        <div class="main-contant-background">
+            <div class="main-container">
+                <div class="cards">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-contant-container">
+                                <div class="name">
+                                    <ul>
+                                        <li>Разумова Юлия Викторовна</li>
+                                    </ul>
+                                </div>
+        
+                                <div class="info">
+                                    <ul class="info-logo">
+                                        <li>
+                                            <img src="static/logo/briefcase-solid 1.svg" alt="brief-case">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/mail.svg" alt="email">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/telephone.svg" alt="telephone">
+                                            
+                                        </li>
+                                    </ul>
+                                    <ul class="info-text">
+                                        <li>
+                                            Заместитель проректора по академической политике
+                                        </li>
+                                        <li>
+                                            Yuliya.Razumova@vvsu.ru
+                                        </li>
+                                        <li>
+                                            +7 (914) 728 08 24
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-photo">
+                                <img src="static/images/yulia-razumova.png" alt="card-photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-contant-container">
+                                <div class="name">
+                                    <ul>
+                                        <li>Элбакидзе Инна Михайловна</li>
+                                    </ul>
+                                </div>
+        
+                                <div class="info">
+                                    <ul class="info-logo">
+                                        <li>
+                                            <img src="static/logo/briefcase-solid 1.svg" alt="brief-case">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/mail.svg" alt="email">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/telephone.svg" alt="telephone">
+                                            
+                                        </li>
+                                    </ul>
+                                    <ul class="info-text">
+                                        <li>
+                                            Руководитель Центра проектного обучения
+                                        </li>
+                                        <li>
+                                            Inna.elbakidze@vvsu.ru
+                                        </li>
+                                        <li>
+                                            +7 (423) 240-42-62
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-photo">
+                                <img src="static/images/inna-elbakidze.png" alt="card-photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-contant-container">
+                                <div class="name">
+                                    <ul>
+                                        <li>Федякшина Нина Афанасьевна</li>
+                                    </ul>
+                                </div>
+        
+                                <div class="info">
+                                    <ul class="info-logo">
+                                        <li>
+                                            <img src="static/logo/briefcase-solid 1.svg" alt="brief-case">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/mail.svg" alt="email">
+                                            
+                                        </li>
+                                        <li>
+                                            <img src="static/logo/telephone.svg" alt="telephone">
+                                            
+                                        </li>
+                                    </ul>
+                                    <ul class="info-text">
+                                        <li>
+                                            Специалист Центра проектного обучения
+                                        </li>
+                                        <li>
+                                            Fedyakshina.na@vvsu.ru
+                                        </li>
+                                        <li>
+                                            +7 (423) 240-42-62
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-photo">
+                                <img src="static/images/nina-fenyashkina.png" alt="card-photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="line-container">
+            </div>
+            <div class="address-text">
+                690014 Приморский край, г. Владивосток, ул. Гоголя, 39,а ВВГУ, ауд. 1305 "Точка кипения"
+            </div>
+            <div class="phone-text">
+                Тел. +7 (423) 240-40-61
+            </div>
         </div>
-        <div class="profile">
-          <a class="profile-text" href="#">Гмарь Дмитрий Викторович</a>
-          <a href=""><img src="account.png" alt=""></a>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="header-down">
-    <img class="back" src="static/logo/back.svg" alt="">
-    <h1 class="adres">Адреса и контакты</h1>
-  </div>
-  <div class="hero">
-    <div class="cards">
-      <div class="container">
-        <div class="card">
-          
-          <div class="card-image">
-              <img src="static/images/card-image.png" alt="">
-          </div>
-          <div class="card-title">
-            Разумова Юлия Викторовна
-          </div>
-          <div class="card-icon-container">
-            <div class="card-icon">
-              <img src="static/logo/briefcase-solid 1.svg" alt="">
-              <img src="static/logo/card.svg" alt="">
-              <img src="static/logo/card.svg" alt="">
+    <footer class="footer">
+        <div class="footer-contant-container">
+            <div class="links">
+                <a class="vvsu-link" href="https://www.vvsu.ru/">
+                    Владивостокский государственный университет
+                </a>
+                <div class="footer-links">
+                    <a  href="#">
+                        Адреса и контакты
+                    </a>
+                    <a href="#">
+                        Техническая поддержка
+                    </a>
+                </div>
+                <div class="social-networks">
+                    <a href="#">
+                        <img src="static/logo/tg-logo.svg" alt="telegram">
+                    </a>
+                    <a href="#">
+                        <img src="static/logo/youtube-logo.svg" alt="youtube">
+                    </a>
+                    <a href="#">
+                        <img src="static/logo/vk-logo.svg" alt="vk">
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="card-desc">
-            <div class="post">
-              Заместитель проректора по академической политике
-            </div>
-            <div class="email">
-              Yuliya.Razumova@vvsu.ru
-            </div>
-            <div class="telephone">
-              +7 914 728 08 24
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
