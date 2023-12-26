@@ -1,0 +1,248 @@
+*{
+    font-family: Montserrat;
+    color:black;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar-container {
+    max-width: 1680px;
+    max-height: 55px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-container {
+    max-width: 1395px;
+    max-height: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    margin-top: 15px;
+    display: inline-block;
+    list-style: none;
+    color: #f0f0f0;
+    margin-right: 11px;
+}
+.line{
+    width: 1px;
+    height: 16px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.nav-link-bold a{
+    color:#FFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-link-bold a:hover{
+    color:#9FC0D5;
+}
+.username a{
+    color: #FFF;
+    text-decoration: none;
+}
+.username a:hover{
+    color:#9FC0D5;
+}
+.navbar-background{
+    height: 55px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0F6295;
+}
+.header-logo a{
+    margin-right: 53px;
+}
+
+.main-container{
+    max-width: 1395px;
+    max-height: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card-container{
+    max-width: 1396px;
+    max-height: 232px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.card-background{
+    width: 1396px;
+    height: 232px;
+    margin-top: 88px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 0px 57.8px 8px rgba(0, 0, 0, 0.15);
+}
+.card-content-container{
+    position: absolute;
+    max-width: 1045px;
+    max-height: 180px;
+    margin-top: 19px;
+    margin-left: 28px;
+    width: 100%;
+}
+.name{
+    color: #0F6295;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.info-row{
+    display: flex;
+    margin-bottom: 17px;
+}
+.info-col-1 img{
+    margin-right: 11px;
+    width: 16px;
+    height: 16px;
+}
+.info-container{
+    margin-top: 12px;
+}
+.info-text{
+    font-size: 16px;
+}
+.card-photo{
+    max-width: 165px;
+    max-height: 172px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1093px;
+}
+.notifications-container{
+    max-width: 1396px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.notifications-background{
+    width: 1396px;
+    height: 645px;
+    margin-top: 21px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 0px 57.8px 8px rgba(0, 0, 0, 0.15);
+}
+.notify-cards{
+    padding-top: 33px;
+}
+.notify-card-container{
+    max-width: 1341px;
+    max-height: 221px;
+    width: 100%;
+    margin: 0 auto;
+}
+.notify-card-background{
+    width: 1341px;
+    height: 221px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    border-radius: 14px;
+    border: 2px solid #DBDCDE;
+    background: #F3F3F3;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.notification-label label{
+    font-weight: 700;
+}
+.notification-label img{
+    margin-right: 8px;
+}
+.notification-label{
+    margin-top: 16px;
+    margin-left: 12px;
+}
+.notification-body-container{
+    max-width: 1254px;
+    max-height: 132px;
+    width: 100%;
+    margin: 0 auto;
+}
+.notification-topic{
+    margin-top: 19px;
+    color: #0F6295;
+    font-size: 20px;
+    font-weight: 800;
+}
+.notification-text{
+    margin-top: 14px;
+    color: #000;
+    text-align: justify;
+    font-weight: 500;
+}
+.notification-date{
+    margin-top: 35px;
+    color: #000;
+    text-align: justify;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 1920px;
+    height: 55px;
+    width: 100%;
+    background-color: #0F6295;
+    margin-top: auto;
+}
+.footer-content-container{
+    max-width: 1680px;
+    max-height: 55px;
+    width: 100%;
+    margin: 0 auto;
+}
+.links{
+    margin-top: 15px;
+    display: flex;
+}
+.vvsu-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-right: 244px;
+}
+.vvsu-link:hover{
+    color: #9FC0D5;
+    text-decoration: none;
+}
+.footer-links a{
+    padding-bottom: 0;
+    margin-right: 24px;
+    text-decoration: none;
+    color: #9FC0D5;
+}
+.footer-links a:hover{
+    color:#fff
+}
+.social-networks{
+    margin-left: auto;
+    margin-right: 0;
+}
+.social-networks a{
+    margin-left: 22px;
+}
