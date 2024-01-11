@@ -6,12 +6,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 .page{
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #F8F9FB;
+
 }
 .navbar-container {
     max-width: 1680px;
@@ -68,10 +71,9 @@
 .header-logo a{
     margin-right: 53px;
 }
-
 .main-container{
     max-width: 1395px;
-    max-height: 990px;
+    max-height: 1230px;
     width: 100%;
     margin: 0 auto;
 }
@@ -149,13 +151,78 @@
     margin-top: 22px;
     margin-left: 1093px;
 }
-
+.projects-box{
+    max-width: 1396px;
+    max-height: 900px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-card-container{
+    width: 438px;
+    height: 268px;
+    margin-top: 25px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 0px 57.8px 3px rgba(0, 0, 0, 0.15);
+}
+.project-contant-container{
+    margin: 0 auto;
+    margin-top: 31px;
+    width: 362px;
+    height: 202px;
+}
+.status{
+    width: 122px;
+    height: 21px;
+    border-radius: 20px;
+}
+.in-process{
+    background: #1682D1;
+}
+.finished{
+    background: #239B05;
+}
+.status p{
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+.project-desc{
+    margin-top: 21px;
+    width: 360px;
+    height: 118px;
+}
+.project-desc p{
+    font-size: 16px;
+    font-weight: 500;
+}
 .footer{
     width: 1920px;
     height: 55px;
     width: 100%;
+
     background-color: #0F6295;
-    margin-top: auto;
+    margin-top: 48px;
+}
+.btn{
+    width: 360px;
+    height: 42px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.btn:disabled{
+    border: 1px solid #8B8B8B;
+    background-color: #FFF;
+    font-weight: 500;
+    cursor: not-allowed;
+}
+.btn:enabled, .btn:enabled:hover{
+    background-color: #0F6295;
+    font-weight: 500;
+    color: #FFF;
 }
 .footer-content-container{
     max-width: 1680px;
